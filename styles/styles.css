@@ -110,3 +110,8 @@ p{
     background-color: #FDF7E9;
     display: flex;
 }
+
+.header .logo img{
+    height: 71px;
+    width: auto;
+}
