@@ -97,3 +97,16 @@ p{
     font-family: Manrope;
     font-family: 300; /*Light*/
 }
+
+
+/*--------------------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #FDF7E9;
+    display: flex;
+}
