@@ -109,9 +109,14 @@ p{
 .header{
     background-color: #FDF7E9;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 5px 10%;
 }
 
 .header .logo img{
     height: 71px;
     width: auto;
 }
+
