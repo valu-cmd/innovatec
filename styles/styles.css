@@ -25,6 +25,7 @@
 .header .logo img{
     height: 71px;
     width: auto;
+    margin: 10px;
 }
 
 .header .nav-links{
