@@ -50,11 +50,12 @@
 }
 
 /*button*/
+
 .header .btnSF button{
     font-size: 1rem;/*16px*/
     font-family: Manrope;
     font-weight: 800; /*ExtraBold*/
-    padding: 6px 12px;
+    padding: 0.65em 1em;
     background: #FDF7E9;
     border: 3px solid #081F3C;
     border-radius: 6px;
@@ -66,7 +67,7 @@
     font-family: Manrope;
     font-weight: 800; /*ExtraBold*/
     color: white;
-    padding: 6px 12px;
+    padding: 0.65em 1em;
     background:  #081F3C;
     border: 3px solid #081F3C;
     border-radius: 6px;
