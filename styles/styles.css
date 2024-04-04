@@ -43,9 +43,10 @@
 .header .nav-links a{
     font-size: 1rem;/*16px*/
     font-family: Manrope;
-    font-family: 600;/*SemiBold*/
+    font-weight: 600;/*SemiBold*/
     color: #081F3C;
     text-decoration: none;
+    padding: 15px;
 }
 
 /*button*/
