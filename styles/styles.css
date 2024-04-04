@@ -52,8 +52,8 @@
 .header .btnSF button{
     font-size: 1rem;/*16px*/
     font-family: Manrope;
-    font-family: 800; /*ExtraBold*/
-    padding: 5px, 25px;
+    font-weight: 800; /*ExtraBold*/
+    padding: 6px 12px;
     background: #FDF7E9;
     border: 3px solid #081F3C;
     border-radius: 6px;
