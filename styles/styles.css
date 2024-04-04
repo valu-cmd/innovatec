@@ -47,3 +47,15 @@
     color: #081F3C;
     text-decoration: none;
 }
+
+/*button*/
+.header .btnSF button{
+    font-size: 1rem;/*16px*/
+    font-family: Manrope;
+    font-family: 800; /*ExtraBold*/
+    padding: 5px, 25px;
+    background: #FDF7E9;
+    border: 3px solid #081F3C;
+    border-radius: 6px;
+    cursor: pointer;
+}
