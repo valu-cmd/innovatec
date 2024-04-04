@@ -12,7 +12,7 @@
 .header{
     background-color: #FDF7E9;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 75px;
     padding: 5px 10%;
@@ -56,6 +56,7 @@
     font-family: Manrope;
     font-weight: 800; /*ExtraBold*/
     padding: 0.65em 1em;
+    margin: 15px 15px 15px 12rem;
     background: #FDF7E9;
     border: 3px solid #081F3C;
     border-radius: 6px;
