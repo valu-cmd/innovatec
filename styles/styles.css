@@ -33,7 +33,11 @@
 
 .header .nav-links li{
     display: inline-block;
-    padding: 0, 20px;
+    padding: 10px, 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
 }
 
 .header .nav-links a{
