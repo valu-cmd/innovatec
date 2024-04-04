@@ -59,3 +59,15 @@
     border-radius: 6px;
     cursor: pointer;
 }
+
+.header .btnCF button{
+    font-size: 1rem;/*16px*/
+    font-family: Manrope;
+    font-weight: 800; /*ExtraBold*/
+    color: white;
+    padding: 6px 12px;
+    background:  #081F3C;
+    border: 3px solid #081F3C;
+    border-radius: 6px;
+    cursor: pointer;
+}
