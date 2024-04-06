@@ -120,6 +120,10 @@
     border-radius: 6px; /* Borde redondeado del botón */
 }
 
+.btnPrin:hover{
+    background-color: #277ce6;
+}
+
 /*--------------------------------------------------------------------*/
 .info{
     padding: 25px;
