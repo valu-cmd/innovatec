@@ -46,6 +46,17 @@ h4{
     word-spacing: 0.313rem;/*5px*/
 }
 
+p{
+    font-size: 1.125rem; /*18px*/
+    font-family: Manrope;
+    font-weight: 400; /*Regular*/
+    word-spacing: 0.313rem; /*5px*/
+    line-height: 2rem;/*32px*/
+    text-align: justify;
+}
+
+/*--------------------------------------------------------------------*/
+
 .header{
     background-color: #FDF7E9;
     display: flex;
