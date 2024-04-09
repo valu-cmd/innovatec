@@ -173,14 +173,16 @@ p{
 }
 
 /*------------------------Index.html--------------------------------------------*/
+.imgContent img{
+    width: 550px;
+    height: auto;
+}
+
 .infoContent{
     padding: 25px;
     margin: 20px;
 }
 
-.imgContent{
-    
-}
 
 /*------------------------------Test Vocacional-----------------------------------*/
 /*Wey esto no es lo que te pedí que hicieras, te dije que hicieras lo de la página 4!!!!!
