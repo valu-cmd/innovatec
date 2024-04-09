@@ -178,11 +178,21 @@ p{
     height: auto;
 }
 
-.infoContent{
-    padding: 25px;
-    margin: 20px;
+.imgContent{
+    margin-right: 30px; /* Espacio entre la imagen y el texto */
 }
 
+.infoContent{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textContent {
+    flex: 1; /* Ocupa todo el espacio disponible en la columna derecha */
+    padding: 25px;
+}
 
 /*------------------------------Test Vocacional-----------------------------------*/
 /*Wey esto no es lo que te pedí que hicieras, te dije que hicieras lo de la página 4!!!!!
