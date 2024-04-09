@@ -157,15 +157,24 @@ p{
     margin-bottom: 30px;
 }
 
+:root {
+    --color-fondo-btn-azulD: #081F3C; /*Variable dark blue*/
+    
+    --color-fondo-btn-azulC: #2484FD; /*Variable azul claro */
+}
+
 .btnPrin {
     padding: 10px 20px; /* Tamaño del botón */
     font-size: 1.125rem; /*18px*/
     font-family: Manrope;
     font-weight: 800; /*ExtraBold*/
-    background-color: #2484FD; /* Color de fondo del botón */
     color: white; /* Color del texto del botón */
     text-decoration: none; /* Quitar subrayado del botón */
     border-radius: 6px; /* Borde redondeado del botón */
+}
+
+.btnPrin-azulClaro {
+    background-color: var(--color-fondo-btn-azulC); /*Uso de la variable azul claro*/
 }
 
 .btnPrin:hover{
@@ -194,7 +203,10 @@ p{
     padding: 25px;
 }
 
-
+/*button Descubre*/
+.btnPrin-azulDark {
+    background-color: var(--color-fondo-btn-azulD); /*Uso de la variable azul oscuro*/
+}
 
 
 
