@@ -179,6 +179,8 @@ p{
 }
 
 /*------------------------------Test Vocacional-----------------------------------*/
+/*Wey esto no es lo que te pedí que hicieras, te dije que hicieras lo de la página 4!!!!!
+Te lo dije en la llamada!*/
 .encavocacional h1{
 
     /* Test Vocacional */
@@ -188,7 +190,7 @@ p{
     height: 98px;
     left: 124px;
     top: 106px;
-    background-color: aqua;
+    background-color: aqua; /*Porque le pones este fondo??*/
 }
 
 .descripcion{
