@@ -178,40 +178,10 @@ p{
     height: auto;
 }
 
-.imgContent{
-    margin-right: 30px; /* Espacio entre la imagen y el texto */
-}
-
 .infoContent{
-    padding: 20px;
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.textContent {
-    flex: 1; /* Ocupa todo el espacio disponible en la columna derecha */
     padding: 25px;
+    margin: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------test-vocacional-Present.html--------------------------------*/
 .hero-image-vocacional {
