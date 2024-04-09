@@ -173,12 +173,22 @@ p{
     border-radius: 6px; /* Borde redondeado del botón */
 }
 
+/*Uso de la variable azul claro*/
 .btnPrin-azulClaro {
-    background-color: var(--color-fondo-btn-azulC); /*Uso de la variable azul claro*/
+    background-color: var(--color-fondo-btn-azulC); 
 }
 
-.btnPrin:hover{
+.btnPrin-azulClaro:hover{
     background-color: #277ce6;
+}
+
+/*Uso de la variable azul oscuro*/
+.btnPrin-azulDark {
+    background-color: var(--color-fondo-btn-azulD); /*Uso de la variable azul oscuro*/
+}
+
+.btnPrin-azulDark:hover{
+    background-color: #0c2544;
 }
 
 /*------------------------Index.html--------------------------------------------*/
@@ -203,10 +213,7 @@ p{
     padding: 25px;
 }
 
-/*button Descubre*/
-.btnPrin-azulDark {
-    background-color: var(--color-fondo-btn-azulD); /*Uso de la variable azul oscuro*/
-}
+
 
 
 
