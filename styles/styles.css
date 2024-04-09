@@ -177,3 +177,36 @@ p{
     padding: 25px;
     margin: 20px;
 }
+
+/*------------------------------Test Vocacional-----------------------------------*/
+.encavocacional h1{
+
+    /* Test Vocacional */
+
+    position: absolute;
+    width: 656px;
+    height: 98px;
+    left: 124px;
+    top: 106px;
+    background-color: aqua;
+}
+
+.descripcion{
+
+position: absolute;
+width: 1194px;
+height: 121px;
+left: 124px;
+top: 220px;
+
+/* Subtitles */
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+
+color: #888888;
+
+
+}
