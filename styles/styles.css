@@ -173,7 +173,12 @@ p{
 }
 
 /*------------------------Index.html--------------------------------------------*/
-.infoPrin{
+.imgContent img{
+    width: 550px;
+    height: auto;
+}
+
+.infoContent{
     padding: 25px;
     margin: 20px;
 }
