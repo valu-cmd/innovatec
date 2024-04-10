@@ -160,7 +160,10 @@ p{
 :root {
     --color-fondo-btn-azulD: #081F3C; /*Variable dark blue*/
     
-    --color-fondo-btn-azulC: #2484FD; /*Variable azul claro */
+    --color-fondo-btn-azulC: #2484FD; /*Variable azul claro*/
+
+    --color-fondo-btn-transparente: transparent;
+    --color-margin-btn-transparente: #081F3C; 
 }
 
 .btnPrin {
@@ -195,6 +198,12 @@ p{
 
 .btnPrin-azulDark:hover{
     background-color: #0c2544;
+}
+
+/*Uso de la variable transparent*/
+.btnPrin-transparent{
+    background-color: var(--color-fondo-btn-transparente);
+    box-shadow: 0 0 0 4px var(--color-margin-btn-transparente);
 }
 
 /*------------------------Index.html--------------------------------------------*/
