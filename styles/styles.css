@@ -204,7 +204,7 @@ p{
 /*Uso de la variable transparent*/
 .btnPrin-transparent{
     background-color: var(--color-fondo-btn-transparente);
-    box-shadow: 0 0 0 3px var(--color-margin-btn-transparente);
+    box-shadow: 0 0 0 2px var(--color-margin-btn-transparente);
     color: var(--color-text-btn-transparente);
 }
 
