@@ -173,6 +173,12 @@ p{
     border-radius: 6px; /* Borde redondeado del botón */
 }
 
+.btnPrin-centrado {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 /*Uso de la variable azul claro*/
 .btnPrin-azulClaro {
     background-color: var(--color-fondo-btn-azulC); 
