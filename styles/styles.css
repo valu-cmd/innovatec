@@ -12,7 +12,7 @@
 
 /*TTITLES*/
 h1{
-    font-size: 4.5rem; /*72px*/
+    font-size: 3.25rem; /*52px*/
     font-family: Manrope;
     font-weight: 800; /*Extra Bold*/
     word-spacing: 0.313rem; /*5px*/
@@ -44,6 +44,8 @@ h4{
     font-family: Manrope;
     font-weight: 600;/*SemiBold*/
     word-spacing: 0.313rem;/*5px*/
+    text-align: center;
+    color: #404040;
 }
 
 p{
@@ -297,7 +299,7 @@ p{
 }
 
 
-/*------------------------test-vocacional-Present.html--------------------------------*/
+/*------------------------testVocacionalPrin.html--------------------------------*/
 /*hero image*/
 .heroImg-testPrin{
     background-image: var(--heroImg-testPrin);
