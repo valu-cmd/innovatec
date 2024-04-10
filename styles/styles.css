@@ -106,7 +106,7 @@ p{
     font-weight: 800; /*ExtraBold*/
     padding: 0.65em 1em;
     margin: 15px 15px 15px 12rem;
-    background: #FDF7E9;
+    background: transparent;
     border: 3px solid #081F3C;
     border-radius: 6px;
     cursor: pointer;
