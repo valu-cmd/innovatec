@@ -163,11 +163,12 @@ p{
     --color-fondo-btn-azulC: #2484FD; /*Variable azul claro*/
 
     --color-fondo-btn-transparente: transparent;
-    --color-margin-btn-transparente: #081F3C; 
+    --color-margin-btn-transparente: #081F3C;
+    --color-text-btn-transparente:#081F3C;
 }
 
 .btnPrin {
-    padding: 10px 20px; /* Tamaño del botón */
+    padding: 10px 15px; /* Tamaño del botón */
     font-size: 1.125rem; /*18px*/
     font-family: Manrope;
     font-weight: 800; /*ExtraBold*/
@@ -203,7 +204,8 @@ p{
 /*Uso de la variable transparent*/
 .btnPrin-transparent{
     background-color: var(--color-fondo-btn-transparente);
-    box-shadow: 0 0 0 4px var(--color-margin-btn-transparente);
+    box-shadow: 0 0 0 3px var(--color-margin-btn-transparente);
+    color: var(--color-text-btn-transparente);
 }
 
 /*------------------------Index.html--------------------------------------------*/
