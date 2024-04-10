@@ -55,7 +55,7 @@ p{
     text-align: justify;
 }
 
-/*--------------------------------------------------------------------*/
+/*----------------------------------NAVBAR---------------------------------*/
 
 .header{
     background-color: #FDF7E9;
@@ -124,7 +124,7 @@ p{
     cursor: pointer;
 }
 
-/*--------------------------------------------------------------------*/
+/*----------------------------------HERO IMAGE---------------------------------*/
 
 .hero-image {
     background-image: url('../img/heroImg2.jpg'); 
@@ -206,16 +206,18 @@ p{
     background-color: var(--color-fondo-btn-transparente);
     box-shadow: 0 0 0 2px var(--color-margin-btn-transparente);
     color: var(--color-text-btn-transparente);
+    margin-right: 50px
 }
 
-/*------------------------Index.html--------------------------------------------*/
+/*----------------------------------Index.html---------------------------------*/
 .imgContent img{
     width: 550px;
     height: auto;
 }
 
 .imgContent{
-    margin-right: 30px; /* Espacio entre la imagen y el texto */
+    margin-right: 30px; /*Espacio entre la imagen y el texto*/
+    margin-left: 15px;
 }
 
 .infoContent{
@@ -230,9 +232,35 @@ p{
     padding: 25px;
 }
 
+/*----------------------------------FOOTER---------------------------------*/
+.footerContent{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.footer-text {
+    text-align: left; /* Alinea el texto y el botón a la derecha */
+    color: rgb(0, 0, 0); /* Color del texto */
+    margin: 10px;
+    padding: 5px;
+}
 
+.footer-text h2 {
+    letter-spacing: -1.5%;
+    margin-bottom: 20px; /* Espacio entre el texto y el botón */
+    inline-size: 700px;
+    overflow-wrap: break-word;
+    margin-bottom: 30px;
+}
 
+.btnPosition {
+    display: flex;
+    gap: 60px; /* Espacio entre los botones */
+}
 
 /*------------------------test-vocacional-Present.html--------------------------------*/
 .hero-image-vocacional {
