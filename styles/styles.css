@@ -126,8 +126,12 @@ p{
 
 /*----------------------------------HERO IMAGE---------------------------------*/
 
+:root{
+    --heroImg-index: url('../img/heroImg2.jpg');
+}
+
 .hero-image {
-    background-image: url('../img/heroImg2.jpg'); 
+    /*background-image: url('../img/heroImg2.jpg');*/
     background-size: cover; /* Cubre todo el espacio disponible*/
     background-position: center; /* Centra la imagen */
     height: 100vh; /* 100% del alto de la ventana */
@@ -135,6 +139,10 @@ p{
     justify-content: flex-start; /* Alinea el contenido a la derecha */
     align-items: center; /* Centra verticalmente */
     padding-right: 20px; /* Espacio para separar el texto y el botón del borde derecho */
+}
+
+.heroImg-index{
+    background-image: var(--heroImg-index);
 }
 
 .hero-text {
