@@ -47,7 +47,7 @@ h4{
 }
 
 p{
-    font-size: 1.125rem; /*18px*/
+    font-size: 1rem; /*18px*/
     font-family: Manrope;
     font-weight: 400; /*Regular*/
     word-spacing: 0.313rem; /*5px*/
@@ -128,6 +128,7 @@ p{
 
 :root{
     --heroImg-index: url('../img/heroImg2.jpg');
+    --heroImg-testPrin: url('../img/heroExam.jpg');
 }
 
 .hero-image {
@@ -297,36 +298,18 @@ p{
 
 
 /*------------------------test-vocacional-Present.html--------------------------------*/
-.hero-image-vocacional {
-    background-image: url('../img/libros.jpg'); 
-    background-size: cover; /* Cubre todo el espacio disponible*/
-    background-position: center; /* Centra la imagen */
-    height: 100vh; /* 100% del alto de la ventana */
-    display: flex;
-    justify-content: flex-start; /* Alinea el contenido a la derecha */
-    align-items: center; /* Centra verticalmente */
-    padding-right: 20px; /* Espacio para separar el texto y el botón del borde derecho */
+/*hero image*/
+.heroImg-testPrin{
+    background-image: var(--heroImg-testPrin);
 }
 
-.hero-text-vocaional {
-    text-align: left; /* Alinea el texto y el botón a la derecha */
-    color: rgb(0, 0, 0); /* Color del texto */
+.descTest{
+    padding: 35px;
     margin: 30px;
-    padding: 25px;
-
 }
 
-.hero-text-vocaional h1 {
-    font-size: 3.5rem; /* 56px */
-    font-family: Montserrat;
-    font-weight: 400; /* Regular */
-    line-height: 5rem; /* 80px */
-    letter-spacing: -1.5%;
-    text-align: left;
-    margin-bottom: 20px; /* Espacio entre el texto y el botón */
-    inline-size: 810px;
-    overflow-wrap: break-word;
-    margin-bottom: 30px;
-
+.titleTest{
+    text-align: center;
+    margin: 20px;
 }
 
