@@ -262,6 +262,32 @@ p{
     gap: 60px; /* Espacio entre los botones */
 }
 
+.footerInfo{
+    display: flex;
+    justify-content: end;
+    margin: 0 30px;
+    padding: 0 20px;
+}
+
+.columna{
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.footerInfo a{
+    text-decoration: none;
+    font-size: 0.938rem;/*15px*/
+    font-family: Montserrat;
+    font-weight: normal;
+    color: black;
+    line-height: 1.8em;
+}
+
+.footerInfo :hover{
+    color: #277ce6;
+}
+
+
 /*------------------------test-vocacional-Present.html--------------------------------*/
 .hero-image-vocacional {
     background-image: url('../img/libros.jpg'); 
