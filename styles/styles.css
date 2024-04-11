@@ -380,7 +380,6 @@ p{
     overflow: hidden; /* Evita el desbordamiento de la imagen */
 }
 
-<<<<<<< HEAD
 .image-container img {
     
     width: 100%; /* La imagen ocupa todo el ancho del contenedor */
@@ -399,9 +398,5 @@ p{
 .colVentajas p {
     margin: 10px; /* Espacio alrededor del texto */
     padding: 20px; /* Añade un relleno para separar las palabras del borde */
-=======
-.colVentajas h4, .colVentajas p {
-    margin: 10px 0; /* Ajusta el margen entre el texto y los bordes de las cajas */
->>>>>>> 40edc8fcdce75c3223588544a83af020660969f6
 }
 
