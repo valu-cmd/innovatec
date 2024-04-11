@@ -386,8 +386,7 @@ p{
     border-radius: 10px; /* Redondea las esquinas de las imágenes */
 }
 
-.colVentajas h4,
-.colVentajas p {
+.colVentajas h4, .colVentajas p {
     margin: 10px 0; /* Ajusta el margen entre el texto y los bordes de las cajas */
 }
 
