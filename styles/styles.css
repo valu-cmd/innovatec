@@ -317,41 +317,50 @@ p{
 }
 
 .infoVentajas {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Ajusta la altura de los elementos para que se igualen */
     padding: 15px 9%;
-    margin: 0 auto;
- 
-    overflow: auto; /* Limpiar el float */
-}
-
-.colVentajas-container {
-    width: calc(33.33% - 20px); /* Calcula el ancho para que haya tres cajas por fila y separen 20px entre ellas */
-    height: 490px;
-    margin: 10px; /* Agrega margen para separar las cajas */
-    float: left; /* Para formar una cuadrícula */
+    overflow: hidden; /* Evita el desbordamiento */
 }
 
 .colVentajas {
-    width: 100%;
-    height: 100%;
+    
+    flex: 1; /* Hace que los elementos tengan el mismo ancho */
+    margin:  15px; /* Espacio entre los elementos */
     border: 2px solid;
     background-color: white;
+    border-radius: 10px;
+    overflow: hidden; /* Evita el desbordamiento */
     text-align: center;
-    border-radius: 10px; /* Redondea las esquinas de las cajas */
-    box-sizing: border-box; /* Incluye el borde y el padding en el ancho y alto de las cajas */
-    padding: 20px; /* Ajusta el relleno dentro de las cajas */
+    height: 450px;
+    
+    
 }
 
-.colVentajas img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px; /* Redondea las esquinas de las imágenes */
+
+.image-container {
+    height: 200px; /* Altura deseada para el contenedor de la imagen */
+    overflow: hidden; /* Evita el desbordamiento de la imagen */
 }
 
-.colVentajas h4,
+.image-container img {
+    
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 200px; /* Se ajusta automáticamente la altura para mantener la proporción */
+    border-radius: 10px 10px 0 0; /* Redondea solo las esquinas superiores */
+    background-size: cover; /* La imagen se ajustará para cubrir completamente el contenedor */
+    background-position: center; /* La imagen se posicionará en el centro del contenedor */
+    
+}
+
+.colVentajas h4 {
+    margin: 10px;
+}
+
+
 .colVentajas p {
-    margin: 10px 0; /* Ajusta el margen entre el texto y los bordes de las cajas */
+    margin: 10px; /* Espacio alrededor del texto */
+    padding: 20px; /* Añade un relleno para separar las palabras del borde */
 }
 
