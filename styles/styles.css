@@ -316,24 +316,42 @@ p{
     margin: 20px;
 }
 
-.infoVentajas
-{
+.infoVentajas {
     padding: 15px 9%;
     margin: 0 auto;
-    background-color: #277ce6;
+ 
+    overflow: auto; /* Limpiar el float */
+}
 
+.colVentajas-container {
+    width: calc(33.33% - 20px); /* Calcula el ancho para que haya tres cajas por fila y separen 20px entre ellas */
+    height: 490px;
+    margin: 10px; /* Agrega margen para separar las cajas */
+    float: left; /* Para formar una cuadrícula */
 }
 
 .colVentajas {
-    width: 406px;
-    height: 560px;
-    top: 247px;
-    left: 79px;
-    
+    width: 100%;
+    height: 100%;
     border: 2px solid;
     background-color: white;
-    float: left;
+    text-align: center;
+    border-radius: 10px; /* Redondea las esquinas de las cajas */
+    box-sizing: border-box; /* Incluye el borde y el padding en el ancho y alto de las cajas */
+    padding: 20px; /* Ajusta el relleno dentro de las cajas */
 }
 
+.colVentajas img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px; /* Redondea las esquinas de las imágenes */
+}
 
- 
+.colVentajas h4,
+.colVentajas p {
+    margin: 10px 0; /* Ajusta el margen entre el texto y los bordes de las cajas */
+}
+
