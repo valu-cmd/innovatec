@@ -58,7 +58,6 @@ p{
 }
 
 /*----------------------------------NAVBAR---------------------------------*/
-
 .header{
     background-color: #FDF7E9;
     display: flex;
@@ -80,24 +79,61 @@ p{
 
 .header .nav-links{
     list-style: none;
+    display: flex;
 }
 
 .header .nav-links li{
-    display: inline-block;
-    padding: 10px, 20px;
+    position: relative; /* Agrega posición relativa para los elementos con submenú */
 }
 
-.header .nav-links li:hover{
-    transform: scale(1.1);
+.header .nav-links a:hover {
+    background-color: rgba(8, 31, 60, 0.1);
+    border-radius: 6px;
 }
 
 .header .nav-links a{
-    font-size: 1rem;/*16px*/
+    font-size: 1rem;
     font-family: Manrope;
-    font-weight: 600;/*SemiBold*/
+    font-weight: 600;
     color: #081F3C;
     text-decoration: none;
     padding: 15px;
+    display: inline-block;
+
+}
+
+.sub-sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #d1c5a9;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    top: 0;
+    left: 100%; /* Posiciona el subsubmenú a la derecha del submenú */
+    list-style: none;
+    padding: 0px;
+    margin-left: 5px; /* Añade margen izquierdo para separar del submenú */
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #eee5d1;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    top: 100%;
+    left: 0;
+    list-style: none; /* Quitar viñetas del submenú */
+    padding: 0; /* Eliminar el espacio entre elementos del submenú */
+    width: 150px;
+}
+
+.has-submenu:hover > .sub-menu {
+    display: block;
+}
+
+.has-submenu:hover .has-submenu:hover > .sub-sub-menu {
+    display: block;
 }
 
 /*button*/
