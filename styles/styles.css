@@ -308,6 +308,7 @@ p{
 .descTest{
     padding: 35px;
     margin: 30px;
+
 }
 
 .titleTest{
@@ -315,3 +316,24 @@ p{
     margin: 20px;
 }
 
+.infoVentajas
+{
+    padding: 15px 9%;
+    margin: 0 auto;
+    background-color: #277ce6;
+
+}
+
+.colVentajas {
+    width: 406px;
+    height: 560px;
+    top: 247px;
+    left: 79px;
+    
+    border: 2px solid;
+    background-color: white;
+    float: left;
+}
+
+
+ 
