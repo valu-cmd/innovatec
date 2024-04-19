@@ -400,3 +400,9 @@ p{
     padding: 20px; /* Añade un relleno para separar las palabras del borde */
 }
 
+
+/*------------------------SobreNosotros.html--------------------------------*/
+.contInfo{
+    margin: 35px;
+    padding: 20px;
+}
