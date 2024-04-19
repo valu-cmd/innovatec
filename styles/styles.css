@@ -406,3 +406,20 @@ p{
     margin: 35px;
     padding: 20px;
 }
+
+/*------------------------PolíticaCookies.html--------------------------------*/
+.titleCookie{
+    color: #081F3C;
+    margin: 35px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.subCookie{
+    color: #353535;
+    margin: 0 55px;
+    font-size: 1.125;/*18px*/
+    font-family: Manrope;
+    font-weight: 600;/*SemiBold*/
+    word-spacing: 0.313rem;/*5px*/
+}
