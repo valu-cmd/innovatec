@@ -423,3 +423,20 @@ p{
     font-weight: 600;/*SemiBold*/
     word-spacing: 0.313rem;/*5px*/
 }
+
+table{
+    font-family: Manrope;
+}
+
+td{
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th{
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 8px;
+    background-color: #0000002c;
+  }
