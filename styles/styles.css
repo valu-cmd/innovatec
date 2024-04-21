@@ -440,3 +440,57 @@ td{
     padding: 8px;
     background-color: #0000002c;
   }
+
+  /*------------------------login.html--------------------------------*/
+  
+.cuerpo{
+
+text-align: center;
+
+
+}
+
+.cuerpo input
+{
+    /* Correo */
+box-sizing: border-box;
+margin: 55px;
+width: 590px;
+height: 63px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 5px;
+
+
+   
+}
+
+
+.cuerpo  label{
+
+width: 128px;
+height: 2330px;
+left: 24px;
+top: 21px;
+background-color: #2484FD;
+
+align-items: center;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
