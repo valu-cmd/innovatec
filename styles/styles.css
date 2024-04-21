@@ -463,22 +463,31 @@ background: #FFFFFF;
 border: 1px solid #000000;
 border-radius: 5px;
 
+padding-left: 10px; /* Agrega un padding para que el texto no se pegue al borde */
 
    
 }
 
 
-.cuerpo  label{
 
+
+.cuerpo input::placeholder {
+
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+position: absolute;
 width: 128px;
-height: 2330px;
+height: 20px;
 left: 24px;
 top: 21px;
-background-color: #2484FD;
-
-align-items: center;
 }
-
 
 
 
