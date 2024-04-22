@@ -454,7 +454,7 @@ text-align: center;
 {
     /* Correo */
 box-sizing: border-box;
-margin: 55px;
+margin: 25px;
 width: 590px;
 height: 63px;
 left: 0px;
@@ -463,14 +463,10 @@ background: #FFFFFF;
 border: 1px solid #000000;
 border-radius: 5px;
 
+
+
 padding-left: 10px; /* Agrega un padding para que el texto no se pegue al borde */
-
-   
 }
-
-
-
-
 .cuerpo input::placeholder {
 
     font-family: 'Manrope';
@@ -488,6 +484,39 @@ height: 20px;
 left: 24px;
 top: 21px;
 }
+
+
+
+.footdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Agrega un padding para separar el contenido del borde */
+    padding: 20px;
+  }
+  
+  .footdiv footer {
+    /* Agrega un ancho máximo para que el contenido no se desborde */
+    max-width: 600px;
+    /* Agrega un margen para separar el contenido del borde */
+    margin: 20px;
+    /* Agrega un fondo y un borde para darle diseño */
+ 
+    /* Agrega un padding para separar el contenido del borde */
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+
+  
+
+
+
 
 
 
