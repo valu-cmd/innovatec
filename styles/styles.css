@@ -522,9 +522,18 @@ th{
     border: 1px solid #000000;
     border-radius: 5px;
     padding-left: 10px;
-
-
 }
+
+#generos{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;   
+    color: #000000;
+}
+
+
 
 
 
