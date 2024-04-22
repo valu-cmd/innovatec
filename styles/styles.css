@@ -480,15 +480,18 @@ td{
     /* Agrega un padding para separar el contenido del borde */
     padding: 20px;
 }
+
+.olvidoCont{
+    font-size: 1.125;/*18px*/
+    font-family: Manrope;
+    font-weight: normal;
+    color: #353535;
+    line-height: 1.8em;
+}
   
 .footdiv footer {
-    /* Agrega un ancho máximo para que el contenido no se desborde */
     max-width: 600px;
-    /* Agrega un margen para separar el contenido del borde */
     margin: 20px;
-    /* Agrega un fondo y un borde para darle diseño */
-    
-    /* Agrega un padding para separar el contenido del borde */
     padding: 20px;
     display: flex;
     flex-direction: column;
