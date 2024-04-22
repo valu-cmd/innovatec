@@ -445,38 +445,29 @@ th{
 .cuerpo input{
     box-sizing: border-box;
     margin: 25px;
-    width: 590px;
-    height: 63px;
-    left: 0px;
-    top: 0px;
+    width: 575px; /* Modificar el ancho según tu preferencia */
+    height: 60px; /* Modificar la altura según tu preferencia */
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 5px;
     padding-left: 10px;
-}
-
-.cuerpo input::placeholder {
-    font-family: 'Manrope';
+    font-family: 'Manrope'; /* Mover el estilo de fuente aquí para todas las propiedades */
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #000000;
-    position: absolute;
-    width: 128px;
-    height: 20px;
-    left: 24px;
-    top: 21px;
+}
+
+.cuerpo input::placeholder {
+    text-align: left;
+    padding: 10px;
 }
 
 .footdiv {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Agrega un padding para separar el contenido del borde */
     padding: 20px;
 }
 
