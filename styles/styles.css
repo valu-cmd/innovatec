@@ -509,13 +509,15 @@ th{
     padding-left: 10px;
 }
 
-#generos{
+#listDesp{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;   
     color: #000000;
+    width: 575px; /* Modificar el ancho según tu preferencia */
+    height: 60px; /* Modificar la altura según tu preferencia */
 }
 
 /*------------------------politicaPrivacidad.html--------------------------------*/

@@ -1,4 +1,4 @@
-/*------------------------login.html y registro.html--------------------------------*/
+/*------------------------login.html--------------------------------*/
 
 /*Utilizado para controlar el comportamiento del placeholder en un input. 
 Cuando el usuario coloca el cursor dentro del input (focus), el placeholder desaparece para permitir la escritura y viceversa*/
@@ -18,4 +18,23 @@ document.getElementById('contrasena').addEventListener('focus', function() {
   
 document.getElementById('contrasena').addEventListener('blur', function() {
     this.setAttribute('placeholder', 'Contraseña');
+});
+
+/*------------------------registro.html--------------------------------*/
+/*nombre*/
+document.getElementById('nombre').addEventListener('focus', function() {
+    this.removeAttribute('placeholder');
+});
+  
+document.getElementById('nombre').addEventListener('blur', function() {
+    this.setAttribute('placeholder', 'Nombre');
+});
+
+/*curp*/
+document.getElementById('curp').addEventListener('focus', function() {
+    this.removeAttribute('placeholder');
+});
+  
+document.getElementById('curp').addEventListener('blur', function() {
+    this.setAttribute('placeholder', 'CURP');
 });

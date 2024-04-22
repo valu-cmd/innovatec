@@ -15,20 +15,21 @@
        
     </header>
 
+    <!--Los input--> 
     <div class="cuerpo">
         <br>
-        <h3>Todavia no eres Alumno?</h3>
+        <h3>¿Todavía no eres Alumno?</h3>
         <p class="subtitle">Únete a nuestra comunidad educativa y comienza tu viaje hacia el éxito.</p>
-        <!--Los input--> <br>
+        <br>
         <div>
-            <input type="text" id="correo" name="correo" placeholder="Nombre completo">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
         </div>
         <div>
-            <input type="password" id="contraseña" name="contraseña" placeholder="CURP">
+            <input type="text" id="curp" name="curp" placeholder="CURP">
         </div>
         <!--Lista desplegable!!-->
         <div>
-            <select name="generos" id="generos">
+            <select name="generos" id="listDesp">
                 <option value="">Genero</option>
                 <option value="M">Masculino</option>
                 <option value="F">Femenino</option>
@@ -37,14 +38,14 @@
         </div>
 
         <div>
-            <input type="text" id="contraseña" name="contraseña" placeholder="Correo Electronico">
+            <input type="text" id="correo" name="correo" placeholder="Correo Electronico">
         </div>
         <div>
-            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
+            <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña">
         </div>
         <div>
-            <select name="nivelEd" id="nivelEd">
-                <option value="">Genero</option>
+            <select name="nivelEd" id="listDesp">
+                <option value="">Nivel Educativo</option>
                 <option value="Secundaria">Secundaria</option>
                 <option value="Preparatoria">Preparatoria</option>
                 <option value="Técnico">Técnico</option>
@@ -66,7 +67,6 @@
             </div>
         </footer>
     </div>
-
-
+    <script src="events.js"></script>
 </body>
 </html>
