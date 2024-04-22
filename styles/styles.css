@@ -399,19 +399,19 @@ p{
 
 /*------------------------SobreNosotros.html--------------------------------*/
 .contInfo{
-    margin: 35px;
-    padding: 20px;
+    margin: 30px;
+    padding: 15px;
 }
 
 /*------------------------PolíticaCookies.html--------------------------------*/
-.titleCookie{
+.titlePolitica{
     color: #081F3C;
     margin: 35px;
     margin-bottom: 0;
     padding: 20px;
 }
 
-.subCookie{
+.subPolitica{
     color: #353535;
     margin: 0 55px;
     font-size: 1.125;/*18px*/
@@ -428,17 +428,16 @@ td{
     border: 1px solid #000000;
     text-align: left;
     padding: 8px;
-  }
+}
   
-  th{
+th{
     text-align: center;
     border: 1px solid #000000;
     padding: 8px;
     background-color: #0000002c;
-  }
+}
 
 /*------------------------login.html--------------------------------*/
-  
 .cuerpo{
     text-align: center;
 }
@@ -496,4 +495,19 @@ td{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/*------------------------politicaPrivacidad.html--------------------------------*/
+ol{
+    margin: 0 30px 0 30px;
+    padding: 15px 0 0 15px;
+}
+
+li{
+    font-size: 1rem; /*18px*/
+    font-family: Manrope;
+    font-weight: 400; /*Regular*/
+    word-spacing: 0.313rem; /*5px*/
+    line-height: 2rem;/*32px*/
+    text-align: justify;
 }
