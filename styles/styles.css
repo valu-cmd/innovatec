@@ -509,11 +509,18 @@ top: 21px;
     flex-direction: column;
     align-items: center;
   }
+
+  .botonEntrar{
+    padding: 19px 45px; /* Tamaño del botón */
+    font-size: 1.125rem; /*18px*/
+    font-family: Manrope;
+    font-weight: 800; /*ExtraBold*/
+    color: white; /* Color del texto del botón */
+    text-decoration: none; /* Quitar subrayado del botón */
+    border-radius: 6px; /* Borde redondeado del botón */
+  }
   
 
-
-
-  
 
 
 
