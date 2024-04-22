@@ -370,8 +370,6 @@ p{
     overflow: hidden; /* Evita el desbordamiento */
     text-align: center;
     height: 450px;
-    
-    
 }
 
 
@@ -386,8 +384,7 @@ p{
     height: 200px; /* Se ajusta automáticamente la altura para mantener la proporción */
     border-radius: 10px 10px 0 0; /* Redondea solo las esquinas superiores */
     background-size: cover; /* La imagen se ajustará para cubrir completamente el contenedor */
-    background-position: center; /* La imagen se posicionará en el centro del contenedor */
-    
+    background-position: center; /* La imagen se posicionará en el centro del contenedor */  
 }
 
 .colVentajas h4 {
