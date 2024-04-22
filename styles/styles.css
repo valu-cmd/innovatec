@@ -441,51 +441,41 @@ td{
     background-color: #0000002c;
   }
 
-  /*------------------------login.html--------------------------------*/
+/*------------------------login.html--------------------------------*/
   
 .cuerpo{
-
-text-align: center;
-
-
+    text-align: center;
 }
 
-.cuerpo input
-{
-    /* Correo */
-box-sizing: border-box;
-margin: 25px;
-width: 590px;
-height: 63px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-border: 1px solid #000000;
-border-radius: 5px;
-
-
-
-padding-left: 10px; /* Agrega un padding para que el texto no se pegue al borde */
+.cuerpo input{
+    box-sizing: border-box;
+    margin: 25px;
+    width: 590px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-left: 10px;
 }
+
 .cuerpo input::placeholder {
-
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #000000;
-position: absolute;
-width: 128px;
-height: 20px;
-left: 24px;
-top: 21px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    left: 24px;
+    top: 21px;
 }
-
-
 
 .footdiv {
     display: flex;
@@ -493,49 +483,18 @@ top: 21px;
     align-items: center;
     /* Agrega un padding para separar el contenido del borde */
     padding: 20px;
-  }
+}
   
-  .footdiv footer {
+.footdiv footer {
     /* Agrega un ancho máximo para que el contenido no se desborde */
     max-width: 600px;
     /* Agrega un margen para separar el contenido del borde */
     margin: 20px;
     /* Agrega un fondo y un borde para darle diseño */
- 
+    
     /* Agrega un padding para separar el contenido del borde */
     padding: 20px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .botonEntrar{
-    padding: 19px 45px; /* Tamaño del botón */
-    font-size: 1.125rem; /*18px*/
-    font-family: Manrope;
-    font-weight: 800; /*ExtraBold*/
-    color: white; /* Color del texto del botón */
-    text-decoration: none; /* Quitar subrayado del botón */
-    border-radius: 6px; /* Borde redondeado del botón */
-  }
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
+}
