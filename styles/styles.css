@@ -487,6 +487,12 @@ th{
     color: #353535;
     line-height: 1.8em;
 }
+
+.regis{
+    text-decoration: none;
+    color: #081F3C;
+    font-weight: bold;
+}
   
 .footdiv footer {
     max-width: 600px;
