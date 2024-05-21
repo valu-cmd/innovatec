@@ -495,7 +495,6 @@ th{
 }
 
 /*------------------------Registro.html--------------------------------*/
-
 .cuerpo select {
     box-sizing: border-box;
     margin: 25px;
@@ -520,9 +519,6 @@ th{
     height: 60px; /* Modificar la altura según tu preferencia */
 }   
 
-
-
-
 /*------------------------politicaPrivacidad.html--------------------------------*/
 ol{
     margin: 0 30px 0 30px;
@@ -538,6 +534,86 @@ li{
     text-align: justify;
 }
 
+/*------------------------testVocacional.html--------------------------------*/
+.test-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
 
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 
+.progress-bar {
+    height: 20px;
+    background-color: #4caf50;
+    width: 0;
+}
 
+.question-container {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+:root {
+    --color-fondo-btn-meInteresa: #2ecc71; /*Variable verde*/    
+    --color-fondo-btn-noMeInteresa: #d10909; /*Variable rojo*/
+
+    --color-text-btn-meInteresa: #2ecc71;
+    --color-text-btn-noMeInteresa: #d10909;
+
+    --color-margin-btn-meInteresa: #2ecc71;
+    --color-margin-btn-noMeInteresa: #d10909;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-meInteresa,
+.btn-noMeInteresa {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: var(--color-fondo-btn-transparente);
+    font-size: 1rem;/*16px*/
+    font-family: Manrope;
+    font-weight: 800; /*ExtraBold*/
+}
+
+.btn-meInteresa{
+    background-color: var(--color-fondo-btn-transparente);
+    border: 2px solid var(--color-margin-btn-meInteresa);
+    color: var(--color-text-btn-meInteresa);
+}
+
+.btn-meInteresa:hover{
+    background-color: var(--color-fondo-btn-meInteresa);
+    color: white;
+}
+
+.btn-noMeInteresa{
+    background-color: var(--color-fondo-btn-transparente);
+    border: 2px solid var(--color-margin-btn-noMeInteresa);
+    color: var(--color-text-btn-noMeInteresa);
+}
+
+.btn-noMeInteresa:hover{
+    background-color: var(--color-fondo-btn-noMeInteresa);
+    color: white;
+}
