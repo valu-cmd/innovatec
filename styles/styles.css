@@ -676,3 +676,16 @@ li{
     background-color: var(--color-fondo-btn-noMeInteresa);
     color: white;
 }
+
+.submit{
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0c2544;
+    font-size: 1rem;/*16px*/
+    font-family: Manrope;
+    font-weight: 800; /*ExtraBold*/
+}
