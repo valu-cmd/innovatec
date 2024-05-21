@@ -534,6 +534,65 @@ li{
     text-align: justify;
 }
 
+
+/*--------------------------------contacto.html------------------------------------*/
+
+.cuerpoContacto{
+    text-align: right;
+}
+
+.cuerpoContacto input, .cuerpoContacto textarea{
+    box-sizing: border-box;
+    margin-top: 50px; /* Agregar un margen superior de 50 píxeles */
+    margin-right: 100px; /* Agregar un margen derecho de 30 píxeles */
+    /*margin: 20px; */
+    width: 575px; /* Modificar el ancho según tu preferencia */
+    height: 60px; /* Modificar la altura según tu preferencia */
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'Manrope'; /* Mover el estilo de fuente aquí para todas las propiedades */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.cuerpoContacto textarea {
+      margin-top: 25px;
+        height: 220px; /* Modificar la altura según tu preferencia */
+        padding: 20px;
+  }
+.cuerpoContacto form {
+    margin-top: 10px;
+}
+
+.text-contac {
+    width: 620px;
+    padding: 20px;
+    margin: 90px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.text-contac p {
+    font-weight: bold;
+    line-height: 1.5;
+}
+ 
+.footdivcontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 /*------------------------testVocacional.html--------------------------------*/
 .test-container {
     display: flex;
