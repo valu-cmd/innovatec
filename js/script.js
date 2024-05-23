@@ -74,7 +74,7 @@ function showResults() {
     <br>
     <p>Tu área de mayor interés es...<span style="font-weight: bold; color: green;"> ${highestArea}</span></p>
     <br>
-    <button id="area-info" class="submit">Ver más</button>`;
+    <button id="area-info" class="submit">¡Quiero saber más!</button>`;
 
     document.getElementById("area-info").addEventListener("click", function() {
         redirectToAreaPage(highestArea);
