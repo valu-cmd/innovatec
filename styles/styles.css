@@ -457,6 +457,7 @@ th{
     font-size: 15px;
     line-height: 20px;
     color: #000000;
+    cursor: pointer;
 }
 
 .cuerpo input::placeholder {
@@ -536,7 +537,6 @@ li{
 
 
 /*--------------------------------contacto.html------------------------------------*/
-
 .cuerpoContacto{
     text-align: right;
 }
@@ -561,10 +561,11 @@ li{
 }
 
 .cuerpoContacto textarea {
-      margin-top: 25px;
-        height: 220px; /* Modificar la altura según tu preferencia */
-        padding: 20px;
-  }
+    margin-top: 25px;
+    height: 220px; /* Modificar la altura según tu preferencia */
+    padding: 20px;
+}
+
 .cuerpoContacto form {
     margin-top: 10px;
 }
@@ -585,7 +586,7 @@ li{
     line-height: 1.5;
 }
  
-.footdivcontact {
+.btn-contact {
     display: flex;
     justify-content: center;
     align-items: center;
