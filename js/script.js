@@ -74,25 +74,36 @@ function showResults() {
     <br>
     <p>Tu área de mayor interés es...<span style="font-weight: bold; color: green;"> ${highestArea}</span></p>
     <br>
-    <button class="submit">Ver más</button>`;
+    <button id="area-info" class="submit">Ver más</button>`;
 
-    showMoreInfo(highestArea);
+    document.getElementById("area-info").addEventListener("click", function() {
+        redirectToAreaPage(highestArea);
+    });
 }
 
-function showMoreInfo(highestArea){
-    if (highestArea == "Área I Arte y creatividad"){
-        alert("Hola mundo")
-    } else if (highestArea == "Área II Ciencias sociales"){
-        alert("Hola tonotos")
-    } else if (highestArea == "Área III Económica administrativa: Económica administrativa"){
-        alert("Ese meroles")
-    } else if (highestArea == "Área IV Ciencia y tecnología"){
-        alert("Hola wapo")
-    } else if (highestArea == "Área V Ciencias de la salud, ecológicas y biológicas") {
-        alert("Alguien llame a un dogtor")
-    } else{
-        alert("Creo que no estoy haciendo nada jajaja checa bien uwu")
+function redirectToAreaPage(area) {
+    let url;
+    switch (area) {
+        case "Área I Arte y creatividad":
+            url = "area-arte-creatividad.html";
+            break;
+        case "Área II Ciencias sociales":
+            url = "area-ciencias-sociales.html";
+            break;
+        case "Área III Económica administrativa":
+            url = "area-economico-administrativo.html";
+            break;
+        case "Área IV Ciencia y tecnología":
+            url = "area-ciencia-tecnologia.html";
+            break;
+        case "Área V Ciencias de la salud, ecológicas y biológicas":
+            url = "area-ciencias-salud-ecologicas-biologicas.html";
+            break;
+        default:
+            url = "error-page.html"; // Opcional: una página por defecto en caso de error
+            break;
     }
+    window.location.href = url;
 }
 
 // Inicializa la primera pregunta
