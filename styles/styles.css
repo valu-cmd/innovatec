@@ -691,7 +691,7 @@ li{
     font-weight: 800; /*ExtraBold*/
 }
 
-/*------------------------testVocacional.html--------------------------------*/
+/*------------------------area-economico-administrativo.html--------------------------------*/
 .product-header {
     background-image: url("../img/area1.jpg");
     width: 100%;
@@ -713,4 +713,27 @@ li{
        1px -1px 0 #000,
       -1px  1px 0 #000,
        1px  1px 0 #000;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.card img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.card-content {
+    max-width: calc(90% - 120px);
 }
