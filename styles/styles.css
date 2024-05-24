@@ -698,6 +698,7 @@ li{
     --heroImg-area3: url("../img/area3.jpg");
     --heroImg-area4: url("../img/area4.jpg");
     --heroImg-area5: url("../img/area5.png");
+    --heroImg-carera3-admin: url("../img/carreras-area3/admin1.jpg")
 }
 
 .heroImg-area1{
@@ -718,6 +719,10 @@ li{
 
 .heroImg-area5{
     background-image: var(--heroImg-area5);
+}
+
+.heroImg-carera3-admin{
+    background-image: var(--heroImg-carera3-admin);
 }
 
 .product-header {
