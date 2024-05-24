@@ -85,19 +85,19 @@ function redirectToAreaPage(area) {
     let url;
     switch (area) {
         case "Área I Arte y creatividad":
-            url = "area-arte-creatividad.html";
+            url = "area-1/area-arte-creatividad.html";
             break;
         case "Área II Ciencias sociales":
-            url = "area-ciencias-sociales.html";
+            url = "area-2/area-ciencias-sociales.html";
             break;
         case "Área III Económica administrativa":
-            url = "area-economico-administrativo.html";
+            url = "area-3/area-economico-administrativo.html";
             break;
         case "Área IV Ciencia y tecnología":
-            url = "area-ciencia-tecnologia.html";
+            url = "area-4/area-ciencia-tecnologia.html";
             break;
         case "Área V Ciencias de la salud, ecológicas y biológicas":
-            url = "area-ciencias-salud-ecologicas-biologicas.html";
+            url = "area-5/area-ciencias-salud-ecologicas-biologicas.html";
             break;
         default:
             url = "error-page.html"; // Opcional: una página por defecto en caso de error
