@@ -726,6 +726,11 @@ li{
     cursor: pointer;
 }
 
+.card:hover {
+    box-shadow: 0 8px 16px rgba(60, 74, 88, 0.2);
+    background-color: #f8f8f8;
+}
+
 .card img {
     width: 200px;
     height: 100px;
