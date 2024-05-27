@@ -777,6 +777,15 @@ li{
     max-width: calc(90% - 120px);
 }
 
+/*------------------------area-arte-creatividad.html--------------------------------*/
+.titleCarac{
+    font-weight: bold;
+}
+
+.textCarac{
+    font-weight: normal;
+}
+
 /*------------------------lic-administracion.html--------------------------------*/
 .link{
     font-size: 1rem; /*18px*/
