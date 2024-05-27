@@ -170,9 +170,10 @@ p{
 
 .hero-image {
     /*background-image: url('../img/heroImg2.jpg');*/
-    background-size: cover; /* Cubre todo el espacio disponible*/
-    background-position: center; /* Centra la imagen */
-    height: 100vh; /* 100% del alto de la ventana */
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 1%;
     display: flex;
     justify-content: flex-start; /* Alinea el contenido a la derecha */
     align-items: center; /* Centra verticalmente */
@@ -267,7 +268,7 @@ p{
 }
 
 .infoContent{
-    padding: 20px;
+    padding: 15px 9%;
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -341,7 +342,7 @@ p{
 }
 
 .descTest{
-    padding: 35px;
+    padding: 15px 9%;
     margin: 30px;
 
 }
@@ -363,7 +364,7 @@ p{
     
     flex: 1; /* Hace que los elementos tengan el mismo ancho */
     margin:  15px; /* Espacio entre los elementos */
-    border: 2px solid;
+    border: 1px solid #b0b0b0;
     background-color: white;
     border-radius: 10px;
     overflow: hidden; /* Evita el desbordamiento */
@@ -400,7 +401,7 @@ p{
 /*------------------------SobreNosotros.html--------------------------------*/
 .contInfo{
     margin: 30px;
-    padding: 15px;
+    padding: 15px 9%;
 }
 
 /*------------------------PolíticaCookies.html--------------------------------*/
